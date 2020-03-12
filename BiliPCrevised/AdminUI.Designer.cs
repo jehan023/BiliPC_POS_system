@@ -108,7 +108,7 @@
             this.labelDate.Location = new System.Drawing.Point(0, 592);
             this.labelDate.Margin = new System.Windows.Forms.Padding(0);
             this.labelDate.Name = "labelDate";
-            this.labelDate.Size = new System.Drawing.Size(34, 14);
+            this.labelDate.Size = new System.Drawing.Size(42, 17);
             this.labelDate.TabIndex = 19;
             this.labelDate.Text = "Date";
             // 
@@ -122,7 +122,7 @@
             this.labelTime.Location = new System.Drawing.Point(36, 566);
             this.labelTime.Margin = new System.Windows.Forms.Padding(0);
             this.labelTime.Name = "labelTime";
-            this.labelTime.Size = new System.Drawing.Size(43, 17);
+            this.labelTime.Size = new System.Drawing.Size(55, 22);
             this.labelTime.TabIndex = 18;
             this.labelTime.Text = "Time";
             // 
@@ -386,6 +386,7 @@
             this.btnTransactionHistory.Text = "Sales History";
             this.btnTransactionHistory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTransactionHistory.UseVisualStyleBackColor = true;
+            this.btnTransactionHistory.Click += new System.EventHandler(this.btnTransactionHistory_Click);
             // 
             // btnCreateTransaction
             // 

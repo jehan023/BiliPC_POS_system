@@ -90,6 +90,12 @@ namespace BiliPC
             HideSubmenu();
         }
 
+        private void btnTransactionHistory_Click(object sender, EventArgs e)
+        {
+            //codes for sales history
+            HideSubmenu();
+        }
+
         private void btnSalesReport_Click(object sender, EventArgs e)
         {
             //codes for sales report
@@ -153,8 +159,9 @@ namespace BiliPC
             LoginUI login = new LoginUI();
             login.Show();
         }
+
         #endregion
 
-
+        
     }
 }
