@@ -25,7 +25,7 @@ namespace BiliPC
         }
 
         //TIMER TICK
-        private void timer1_Tick(object sender, EventArgs e)
+        private void timer1_Tick_1(object sender, EventArgs e)
         {
             labelTime.Text = DateTime.Now.ToLongTimeString();
             timer1.Start();
@@ -159,6 +159,7 @@ namespace BiliPC
             LoginUI login = new LoginUI();
             login.Show();
         }
+
 
         #endregion
 

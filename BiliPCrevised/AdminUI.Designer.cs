@@ -65,6 +65,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
+            // 
             // panelContainerForm
             // 
             this.panelContainerForm.BackColor = System.Drawing.Color.LavenderBlush;
