@@ -256,7 +256,7 @@
             this.panelInventory.Location = new System.Drawing.Point(0, 259);
             this.panelInventory.Margin = new System.Windows.Forms.Padding(2);
             this.panelInventory.Name = "panelInventory";
-            this.panelInventory.Size = new System.Drawing.Size(168, 93);
+            this.panelInventory.Size = new System.Drawing.Size(168, 91);
             this.panelInventory.TabIndex = 12;
             // 
             // btnLogout
@@ -268,7 +268,7 @@
             this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogout.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.ForeColor = System.Drawing.Color.White;
-            this.btnLogout.Location = new System.Drawing.Point(0, 352);
+            this.btnLogout.Location = new System.Drawing.Point(0, 350);
             this.btnLogout.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);

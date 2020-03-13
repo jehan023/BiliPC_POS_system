@@ -58,7 +58,7 @@ namespace BiliPC
 
         #region Container Form
         private Form activeForm = null;
-        private void openContainerFrom(Form ContainerForm)
+        private void openContainerForm(Form ContainerForm)
         {
             if (activeForm != null)
                 activeForm.Close();
@@ -84,7 +84,7 @@ namespace BiliPC
 
         private void btnCreateTransaction_Click(object sender, EventArgs e)
         {
-            openContainerFrom(new TransactionForm());
+            openContainerForm(new TransactionForm());
             HideSubmenu();
         }
 
@@ -111,13 +111,13 @@ namespace BiliPC
 
         private void btnSearchProducts_Click(object sender, EventArgs e)
         {
-            openContainerFrom(new ViewProducts());
+            openContainerForm(new ViewProducts());
             HideSubmenu();
         }
 
         private void btnEditProducts_Click(object sender, EventArgs e)
         {
-            openContainerFrom(new Products());
+            openContainerForm(new Products());
             HideSubmenu();
         }
 

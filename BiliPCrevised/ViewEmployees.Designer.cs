@@ -1,6 +1,6 @@
 ﻿namespace BiliPC
 {
-    partial class Products
+    partial class ViewEmployees
     {
         /// <summary>
         /// Required designer variable.
@@ -33,10 +33,10 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnX = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnDeleteEmployee = new System.Windows.Forms.Button();
+            this.btnUpdateEmployee = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnAddEmployee = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
@@ -59,15 +59,15 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Firebrick;
+            this.panel1.BackColor = System.Drawing.Color.MidnightBlue;
             this.panel1.Controls.Add(this.btnRefresh);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnX);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.btnDeleteEmployee);
+            this.panel1.Controls.Add(this.btnUpdateEmployee);
             this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btnAddEmployee);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -75,7 +75,7 @@
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(945, 100);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 1;
             // 
             // btnRefresh
             // 
@@ -84,7 +84,7 @@
             this.btnRefresh.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRefresh.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRefresh.Location = new System.Drawing.Point(32, 54);
+            this.btnRefresh.Location = new System.Drawing.Point(25, 54);
             this.btnRefresh.Margin = new System.Windows.Forms.Padding(2);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(109, 31);
@@ -113,9 +113,9 @@
             this.label1.Location = new System.Drawing.Point(18, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 37);
+            this.label1.Size = new System.Drawing.Size(186, 37);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Products";
+            this.label1.Text = "Employees";
             // 
             // btnX
             // 
@@ -135,35 +135,35 @@
             this.btnX.UseVisualStyleBackColor = false;
             this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
-            // button1
+            // btnDeleteEmployee
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.SpringGreen;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(404, 54);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 31);
-            this.button1.TabIndex = 35;
-            this.button1.Text = "Delete item";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnDeleteEmployee.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDeleteEmployee.BackColor = System.Drawing.Color.SpringGreen;
+            this.btnDeleteEmployee.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnDeleteEmployee.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnDeleteEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteEmployee.Location = new System.Drawing.Point(364, 54);
+            this.btnDeleteEmployee.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDeleteEmployee.Name = "btnDeleteEmployee";
+            this.btnDeleteEmployee.Size = new System.Drawing.Size(109, 31);
+            this.btnDeleteEmployee.TabIndex = 35;
+            this.btnDeleteEmployee.Text = "Delete";
+            this.btnDeleteEmployee.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnUpdateEmployee
             // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.BackColor = System.Drawing.Color.SpringGreen;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(280, 54);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(109, 31);
-            this.button3.TabIndex = 37;
-            this.button3.Text = "Update item";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnUpdateEmployee.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnUpdateEmployee.BackColor = System.Drawing.Color.SpringGreen;
+            this.btnUpdateEmployee.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnUpdateEmployee.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnUpdateEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdateEmployee.Location = new System.Drawing.Point(251, 54);
+            this.btnUpdateEmployee.Margin = new System.Windows.Forms.Padding(2);
+            this.btnUpdateEmployee.Name = "btnUpdateEmployee";
+            this.btnUpdateEmployee.Size = new System.Drawing.Size(109, 31);
+            this.btnUpdateEmployee.TabIndex = 37;
+            this.btnUpdateEmployee.Text = "Update";
+            this.btnUpdateEmployee.UseVisualStyleBackColor = false;
             // 
             // textBox6
             // 
@@ -175,21 +175,21 @@
             this.textBox6.Size = new System.Drawing.Size(262, 24);
             this.textBox6.TabIndex = 32;
             // 
-            // button2
+            // btnAddEmployee
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.BackColor = System.Drawing.Color.SpringGreen;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(156, 54);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(109, 31);
-            this.button2.TabIndex = 36;
-            this.button2.Text = "Add item";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnAddEmployee.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAddEmployee.BackColor = System.Drawing.Color.SpringGreen;
+            this.btnAddEmployee.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnAddEmployee.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnAddEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddEmployee.Location = new System.Drawing.Point(138, 54);
+            this.btnAddEmployee.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAddEmployee.Name = "btnAddEmployee";
+            this.btnAddEmployee.Size = new System.Drawing.Size(109, 31);
+            this.btnAddEmployee.TabIndex = 36;
+            this.btnAddEmployee.Text = "Add new";
+            this.btnAddEmployee.UseVisualStyleBackColor = false;
+            this.btnAddEmployee.Click += new System.EventHandler(this.btnAddEmployee_Click);
             // 
             // label3
             // 
@@ -198,16 +198,16 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(541, 62);
+            this.label3.Location = new System.Drawing.Point(503, 62);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 18);
+            this.label3.Size = new System.Drawing.Size(153, 18);
             this.label3.TabIndex = 33;
-            this.label3.Text = "Search item:";
+            this.label3.Text = "Search Employee:";
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.MistyRose;
+            this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.textBox7);
             this.panel2.Controls.Add(this.label8);
@@ -225,7 +225,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 100);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(945, 539);
-            this.panel2.TabIndex = 1;
+            this.panel2.TabIndex = 2;
             // 
             // label9
             // 
@@ -234,18 +234,18 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(55, 463);
+            this.label9.Location = new System.Drawing.Point(35, 462);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 22);
+            this.label9.Size = new System.Drawing.Size(89, 22);
             this.label9.TabIndex = 40;
-            this.label9.Text = "Price :";
+            this.label9.Text = "Gender :";
             // 
             // textBox7
             // 
             this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.textBox7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(586, 460);
+            this.textBox7.Location = new System.Drawing.Point(586, 459);
             this.textBox7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(336, 29);
@@ -258,12 +258,12 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(492, 463);
+            this.label8.Location = new System.Drawing.Point(503, 462);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(80, 22);
+            this.label8.Size = new System.Drawing.Size(79, 22);
             this.label8.TabIndex = 38;
-            this.label8.Text = "Status :";
+            this.label8.Text = "Salary :";
             // 
             // textBox2
             // 
@@ -272,6 +272,7 @@
             this.textBox2.Location = new System.Drawing.Point(586, 417);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(336, 29);
             this.textBox2.TabIndex = 34;
             // 
@@ -282,12 +283,12 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(474, 420);
+            this.label7.Location = new System.Drawing.Point(471, 420);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(98, 22);
+            this.label7.Size = new System.Drawing.Size(111, 22);
             this.label7.TabIndex = 31;
-            this.label7.Text = "Supplier :";
+            this.label7.Text = "Password :";
             // 
             // textBox5
             // 
@@ -306,18 +307,18 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(509, 378);
+            this.label6.Location = new System.Drawing.Point(468, 378);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 22);
+            this.label6.Size = new System.Drawing.Size(114, 22);
             this.label6.TabIndex = 29;
-            this.label6.Text = "Cost :";
+            this.label6.Text = "Username :";
             // 
             // textBox4
             // 
             this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.textBox4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(128, 460);
+            this.textBox4.Location = new System.Drawing.Point(128, 459);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(336, 29);
@@ -340,12 +341,12 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(26, 420);
+            this.label4.Location = new System.Drawing.Point(66, 420);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(98, 22);
+            this.label4.Size = new System.Drawing.Size(58, 22);
             this.label4.TabIndex = 26;
-            this.label4.Text = "Quantity :";
+            this.label4.Text = "Age :";
             // 
             // textBox1
             // 
@@ -364,12 +365,12 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(62, 378);
+            this.label2.Location = new System.Drawing.Point(50, 378);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 22);
+            this.label2.Size = new System.Drawing.Size(74, 22);
             this.label2.TabIndex = 24;
-            this.label2.Text = "Item :";
+            this.label2.Text = "Name :";
             // 
             // dataGridView1
             // 
@@ -388,17 +389,17 @@
             this.dataGridView1.Size = new System.Drawing.Size(897, 337);
             this.dataGridView1.TabIndex = 23;
             // 
-            // Products
+            // ViewEmployees
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(945, 639);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(945, 639);
-            this.Name = "Products";
-            this.Text = "Product";
+            this.Name = "ViewEmployees";
+            this.Text = "ViewEmployees";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -411,19 +412,20 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnX;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnX;
+        private System.Windows.Forms.Button btnDeleteEmployee;
+        private System.Windows.Forms.Button btnUpdateEmployee;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Button btnAddEmployee;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label6;
@@ -433,6 +435,5 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnRefresh;
     }
 }

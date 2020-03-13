@@ -63,7 +63,7 @@ namespace BiliPC
 
         #region Container Form
         private Form activeForm = null;
-        private void openContainerFrom(Form ContainerForm)
+        private void openContainerForm(Form ContainerForm)
         {
             if (activeForm != null)
                 activeForm.Close();
@@ -86,19 +86,19 @@ namespace BiliPC
 
         private void btnCreateTransaction_Click_1(object sender, EventArgs e)
         {
-            openContainerFrom(new TransactionForm());
-            HideSubmenu();
-        }
-
-        private void btnTransactionHistory_Click(object sender, EventArgs e)
-        {
-            //codes for sales history
+            openContainerForm(new TransactionForm());
             HideSubmenu();
         }
 
         private void btnSalesReport_Click(object sender, EventArgs e)
         {
             //codes for sales report
+            HideSubmenu();
+        }
+
+        private void btnTransactionHistory_Click(object sender, EventArgs e)
+        {
+            //codes for sales history
             HideSubmenu();
         }
 
@@ -113,13 +113,13 @@ namespace BiliPC
 
         private void btnSearchProducts_Click_1(object sender, EventArgs e)
         {
-            openContainerFrom(new ViewProducts());
+            openContainerForm(new ViewProducts());
             HideSubmenu();
         }
 
         private void btnEditProducts_Click_1(object sender, EventArgs e)
         {
-            openContainerFrom(new Products());
+            openContainerForm(new Products());
             HideSubmenu();
         }
         private void btnInventoryReport_Click(object sender, EventArgs e)
@@ -139,13 +139,13 @@ namespace BiliPC
 
         private void btnViewEmployees_Click(object sender, EventArgs e)
         {
-            //codes for view employees
+            openContainerForm(new ViewEmployees());
             HideSubmenu();
         }
 
         private void btnTrackEmployees_Click(object sender, EventArgs e)
         {
-            //codes for track employees
+            openContainerForm(new TrackEmployees());
             HideSubmenu();
         }
 

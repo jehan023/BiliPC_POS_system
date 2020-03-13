@@ -108,7 +108,7 @@
             this.labelDate.Location = new System.Drawing.Point(0, 592);
             this.labelDate.Margin = new System.Windows.Forms.Padding(0);
             this.labelDate.Name = "labelDate";
-            this.labelDate.Size = new System.Drawing.Size(42, 17);
+            this.labelDate.Size = new System.Drawing.Size(34, 14);
             this.labelDate.TabIndex = 19;
             this.labelDate.Text = "Date";
             // 
@@ -122,7 +122,7 @@
             this.labelTime.Location = new System.Drawing.Point(36, 566);
             this.labelTime.Margin = new System.Windows.Forms.Padding(0);
             this.labelTime.Name = "labelTime";
-            this.labelTime.Size = new System.Drawing.Size(55, 22);
+            this.labelTime.Size = new System.Drawing.Size(43, 17);
             this.labelTime.TabIndex = 18;
             this.labelTime.Text = "Time";
             // 
@@ -176,7 +176,7 @@
             this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogout.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.ForeColor = System.Drawing.Color.White;
-            this.btnLogout.Location = new System.Drawing.Point(0, 446);
+            this.btnLogout.Location = new System.Drawing.Point(0, 441);
             this.btnLogout.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
@@ -194,10 +194,10 @@
             this.panelManageEmployees.Controls.Add(this.btnViewEmployees);
             this.panelManageEmployees.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelManageEmployees.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panelManageEmployees.Location = new System.Drawing.Point(0, 382);
+            this.panelManageEmployees.Location = new System.Drawing.Point(0, 380);
             this.panelManageEmployees.Margin = new System.Windows.Forms.Padding(2);
             this.panelManageEmployees.Name = "panelManageEmployees";
-            this.panelManageEmployees.Size = new System.Drawing.Size(168, 64);
+            this.panelManageEmployees.Size = new System.Drawing.Size(168, 61);
             this.panelManageEmployees.TabIndex = 21;
             // 
             // btnTrackEmployees
@@ -249,7 +249,7 @@
             this.btnManageEmployees.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnManageEmployees.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnManageEmployees.ForeColor = System.Drawing.Color.White;
-            this.btnManageEmployees.Location = new System.Drawing.Point(0, 352);
+            this.btnManageEmployees.Location = new System.Drawing.Point(0, 350);
             this.btnManageEmployees.Margin = new System.Windows.Forms.Padding(2);
             this.btnManageEmployees.Name = "btnManageEmployees";
             this.btnManageEmployees.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
@@ -271,7 +271,7 @@
             this.panelInventory.Location = new System.Drawing.Point(0, 259);
             this.panelInventory.Margin = new System.Windows.Forms.Padding(2);
             this.panelInventory.Name = "panelInventory";
-            this.panelInventory.Size = new System.Drawing.Size(168, 93);
+            this.panelInventory.Size = new System.Drawing.Size(168, 91);
             this.panelInventory.TabIndex = 12;
             // 
             // btnInventoryReport
