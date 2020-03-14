@@ -52,10 +52,7 @@ namespace BiliPC
                 MessageBox.Show("Incorrect username/password.");
             }  
         }
-
-        private void LoginUI_Load(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+        //do not delete this.
+        private void LoginUI_Load(object sender, EventArgs e){}
     }
 }
