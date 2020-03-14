@@ -1,5 +1,4 @@
 ﻿using MongoDB.Bson;
-using MongoDB.Driver;
 using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
@@ -9,19 +8,21 @@ using System.Threading.Tasks;
 
 namespace BiliPC
 {
-    class Login
+    class UsersModel
     {
         [BsonId]
         public ObjectId Id { get; set; }
-        [BsonElement("username")]
+        [BsonElement]
+        public bool isAdmin { get; set; }
+        [BsonElement]
         public string Username { get; set; }
-        [BsonElement("password")]
+        [BsonElement]
         public string Password { get; set; }
+        [BsonElement]
+        public double Salary { get; set; }
+        [BsonElement]
+        public double Workhours { get; set; }
 
-        public Login(string username, string password)
-        {
-            Username = username;
-            Password = password;
-        }
+
     }
 }

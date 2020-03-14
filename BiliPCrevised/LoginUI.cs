@@ -14,34 +14,48 @@ namespace BiliPC
 {
     public partial class LoginUI : Form
     {
-        static MongoClient client = new MongoClient();
-        static IMongoDatabase db = client.GetDatabase("POS_Database");
-        static IMongoCollection<BsonDocument> collection = db.GetCollection<BsonDocument>("Users");
+
+        MongoCRUD db = new MongoCRUD("POS_Database");
 
         public LoginUI()
         {
             InitializeComponent();
-
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (textBoxUsername.Text == "Admin" && textBoxPassword.Text == "admin")
+            string inputUid = textBoxUsername.Text;
+            string inputPwd = textBoxPassword.Text;
+            bool loggedIn = false;
+            var userRecord = db.LoadRecords<UsersModel>("Users");
+            
+            foreach (var user in userRecord)
+            if ((inputUid == user.Username) && (inputPwd == user.Password))
             {
                 this.Hide();
-                AdminUI adminUI = new AdminUI();
-                adminUI.Show();
+                loggedIn = true;
+                if (user.isAdmin == true)
+                {
+                    AdminUI adminUI = new AdminUI();
+                    adminUI.Show();
+                }
+                if (user.isAdmin == false)
+                {
+                    EmployeeUI employeeUI = new EmployeeUI();
+                    employeeUI.Show();
+                }
+                break;
             }
-            else if (textBoxUsername.Text == "User" && textBoxPassword.Text == "user")
-            {
-                this.Hide();
-                EmployeeUI employeeUI = new EmployeeUI();
-                employeeUI.Show();
-            }
-            else 
+
+            if (loggedIn != true)
             {
                 MessageBox.Show("Incorrect username/password.");
-            }
+            }  
+        }
+
+        private void LoginUI_Load(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -206,3 +206,40 @@ C:\Users\Nitro 5\Documents\GitHub\BiliPC_POS_system\BiliPCrevised\obj\Debug\Bili
 C:\Users\Nitro 5\Documents\GitHub\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.csproj.CopyComplete
 C:\Users\Nitro 5\Documents\GitHub\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.exe
 C:\Users\Nitro 5\Documents\GitHub\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.pdb
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\mongocrypt.dll
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\BiliPC.exe.config
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\BiliPC.exe
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\BiliPC.pdb
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\Crc32C.NET.dll
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\DnsClient.dll
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\MongoDB.Bson.dll
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\MongoDB.Driver.dll
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\SharpCompress.dll
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\Snappy.NET.dll
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\System.Buffers.dll
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\Crc32C.NET.xml
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\DnsClient.xml
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\MongoDB.Bson.xml
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\MongoDB.Driver.xml
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\Snappy.NET.xml
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\bin\Debug\System.Buffers.xml
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.csprojAssemblyReference.cache
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.AddNewEmployee.resources
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.AddNewItem.resources
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.AdminUI.resources
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.EmployeeUI.resources
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.FormPrac.resources
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.LoginUI.resources
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.Products.resources
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.Properties.Resources.resources
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.TrackEmployees.resources
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.TransactionForm.resources
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.ViewEmployees.resources
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.ViewProducts.resources
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.csproj.GenerateResource.cache
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.csproj.CopyComplete
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.exe
+C:\Users\DENNIEL-PC\Source\Repos\BiliPC_POS_system\BiliPCrevised\obj\Debug\BiliPC.pdb

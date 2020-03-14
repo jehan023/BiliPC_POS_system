@@ -120,6 +120,7 @@
     <Compile Include="LoginUI.Designer.cs">
       <DependentUpon>LoginUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="MongoCRUD.cs" />
     <Compile Include="Products.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +141,7 @@
     <Compile Include="TransactionForm.Designer.cs">
       <DependentUpon>TransactionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UsersModel.cs" />
     <Compile Include="ViewEmployees.cs">
       <SubType>Form</SubType>
     </Compile>
