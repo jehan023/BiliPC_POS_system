@@ -132,9 +132,7 @@ namespace BiliPC
         #region Logout
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            this.Close();
-            LoginUI login = new LoginUI();
-            login.Show();
+            Application.Exit();
         }
         #endregion
 

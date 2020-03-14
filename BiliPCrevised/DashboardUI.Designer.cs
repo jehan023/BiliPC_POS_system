@@ -1,6 +1,6 @@
 ﻿namespace BiliPC
 {
-    partial class AdminUI
+    partial class DashboardUI
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminUI));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardUI));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.panelContainerForm = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelBottom = new System.Windows.Forms.Panel();
             this.labelDate = new System.Windows.Forms.Label();
             this.labelTime = new System.Windows.Forms.Label();
@@ -55,42 +53,21 @@
             this.panelLogo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelTop = new System.Windows.Forms.Panel();
-            this.panelContainerForm.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panelContainerForm = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelSideMenu.SuspendLayout();
             this.panelManageEmployees.SuspendLayout();
             this.panelInventory.SuspendLayout();
             this.panelSales.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelContainerForm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
-            // 
-            // panelContainerForm
-            // 
-            this.panelContainerForm.BackColor = System.Drawing.Color.LavenderBlush;
-            this.panelContainerForm.Controls.Add(this.pictureBox2);
-            this.panelContainerForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContainerForm.Location = new System.Drawing.Point(168, 24);
-            this.panelContainerForm.Margin = new System.Windows.Forms.Padding(2);
-            this.panelContainerForm.Name = "panelContainerForm";
-            this.panelContainerForm.Size = new System.Drawing.Size(945, 639);
-            this.panelContainerForm.TabIndex = 16;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(332, 161);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(284, 262);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // panelBottom
             // 
@@ -109,10 +86,10 @@
             this.labelDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelDate.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDate.ForeColor = System.Drawing.Color.White;
-            this.labelDate.Location = new System.Drawing.Point(0, 592);
+            this.labelDate.Location = new System.Drawing.Point(6, 616);
             this.labelDate.Margin = new System.Windows.Forms.Padding(0);
             this.labelDate.Name = "labelDate";
-            this.labelDate.Size = new System.Drawing.Size(34, 14);
+            this.labelDate.Size = new System.Drawing.Size(42, 17);
             this.labelDate.TabIndex = 19;
             this.labelDate.Text = "Date";
             // 
@@ -123,10 +100,10 @@
             this.labelTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelTime.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTime.ForeColor = System.Drawing.Color.White;
-            this.labelTime.Location = new System.Drawing.Point(36, 566);
+            this.labelTime.Location = new System.Drawing.Point(36, 590);
             this.labelTime.Margin = new System.Windows.Forms.Padding(0);
             this.labelTime.Name = "labelTime";
-            this.labelTime.Size = new System.Drawing.Size(43, 17);
+            this.labelTime.Size = new System.Drawing.Size(55, 22);
             this.labelTime.TabIndex = 18;
             this.labelTime.Text = "Time";
             // 
@@ -165,10 +142,10 @@
             this.panelSideMenu.Controls.Add(this.btnSales);
             this.panelSideMenu.Controls.Add(this.panelLogo);
             this.panelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelSideMenu.Location = new System.Drawing.Point(0, 24);
+            this.panelSideMenu.Location = new System.Drawing.Point(0, 0);
             this.panelSideMenu.Margin = new System.Windows.Forms.Padding(2);
             this.panelSideMenu.Name = "panelSideMenu";
-            this.panelSideMenu.Size = new System.Drawing.Size(168, 663);
+            this.panelSideMenu.Size = new System.Drawing.Size(168, 687);
             this.panelSideMenu.TabIndex = 13;
             // 
             // btnLogout
@@ -457,11 +434,35 @@
             // 
             this.panelTop.BackColor = System.Drawing.Color.Black;
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTop.Location = new System.Drawing.Point(0, 0);
+            this.panelTop.Location = new System.Drawing.Point(168, 0);
             this.panelTop.Margin = new System.Windows.Forms.Padding(2);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(1113, 24);
-            this.panelTop.TabIndex = 14;
+            this.panelTop.Size = new System.Drawing.Size(945, 24);
+            this.panelTop.TabIndex = 16;
+            // 
+            // panelContainerForm
+            // 
+            this.panelContainerForm.BackColor = System.Drawing.Color.LavenderBlush;
+            this.panelContainerForm.Controls.Add(this.pictureBox2);
+            this.panelContainerForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContainerForm.Location = new System.Drawing.Point(168, 24);
+            this.panelContainerForm.Margin = new System.Windows.Forms.Padding(2);
+            this.panelContainerForm.MinimumSize = new System.Drawing.Size(945, 639);
+            this.panelContainerForm.Name = "panelContainerForm";
+            this.panelContainerForm.Size = new System.Drawing.Size(945, 639);
+            this.panelContainerForm.TabIndex = 17;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(332, 161);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(284, 262);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // AdminUI
             // 
@@ -469,16 +470,14 @@
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1113, 687);
             this.Controls.Add(this.panelContainerForm);
+            this.Controls.Add(this.panelTop);
             this.Controls.Add(this.panelBottom);
             this.Controls.Add(this.panelSideMenu);
-            this.Controls.Add(this.panelTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MinimumSize = new System.Drawing.Size(1129, 726);
             this.Name = "AdminUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BiliPC Store";
-            this.panelContainerForm.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelSideMenu.ResumeLayout(false);
             this.panelSideMenu.PerformLayout();
             this.panelManageEmployees.ResumeLayout(false);
@@ -486,6 +485,8 @@
             this.panelSales.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panelContainerForm.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -493,8 +494,6 @@
         #endregion
 
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Panel panelContainerForm;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panelBottom;
         private System.Windows.Forms.Label labelDate;
         private System.Windows.Forms.Label labelTime;
@@ -515,7 +514,9 @@
         private System.Windows.Forms.Button btnSales;
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panelTop;
         private System.Windows.Forms.Button btnLogout;
+        private System.Windows.Forms.Panel panelTop;
+        private System.Windows.Forms.Panel panelContainerForm;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

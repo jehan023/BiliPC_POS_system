@@ -14,48 +14,37 @@ namespace BiliPC
 {
     public partial class LoginUI : Form
     {
-
-        MongoCRUD db = new MongoCRUD("POS_Database");
+        static MongoClient client = new MongoClient();
+        static IMongoDatabase db = client.GetDatabase("POS_Database");
+        static IMongoCollection<BsonDocument> collection = db.GetCollection<BsonDocument>("Users");
 
         public LoginUI()
         {
             InitializeComponent();
+
         }
+
+        //verify if admin or user
+        public string accType = textBoxUsername.Text;
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string inputUid = textBoxUsername.Text;
-            string inputPwd = textBoxPassword.Text;
-            bool loggedIn = false;
-            var userRecord = db.LoadRecords<UsersModel>("Users");
-            
-            foreach (var user in userRecord)
-            if ((inputUid == user.Username) && (inputPwd == user.Password))
+            if (textBoxUsername.Text == "Admin" && textBoxPassword.Text == "admin")
             {
                 this.Hide();
-                loggedIn = true;
-                if (user.isAdmin == true)
-                {
-                    AdminUI adminUI = new AdminUI();
-                    adminUI.Show();
-                }
-                if (user.isAdmin == false)
-                {
-                    EmployeeUI employeeUI = new EmployeeUI();
-                    employeeUI.Show();
-                }
-                break;
+                DashboardUI dashboard = new DashboardUI();
+                dashboard.Show();
             }
-
-            if (loggedIn != true)
+            else if (textBoxUsername.Text == "User" && textBoxPassword.Text == "user")
+            {
+                this.Hide();
+                DashboardUI dashboard = new DashboardUI();
+                dashboard.Show();
+            }
+            else 
             {
                 MessageBox.Show("Incorrect username/password.");
-            }  
-        }
-
-        private void LoginUI_Load(object sender, EventArgs e)
-        {
-            Application.Exit();
+            }
         }
     }
 }

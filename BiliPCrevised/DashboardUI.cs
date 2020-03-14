@@ -13,15 +13,21 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace BiliPC
 {
-    public partial class AdminUI : Form
+    public partial class DashboardUI : Form
     {
-        public AdminUI()
+        public DashboardUI()
         {
             InitializeComponent();
             timer1.Start();
             labelTime.Text = DateTime.Now.ToLongTimeString();
             labelDate.Text = DateTime.Now.ToLongDateString();
             CustomDesign();
+
+            LoginUI login = new LoginUI();
+            //verify if user is login to hide maanage button
+            if (login.accType == "User")
+                btnManageEmployees.Visible = false;
+
         }
 
         //TIMER TICK
@@ -155,9 +161,7 @@ namespace BiliPC
         #region Logout
         private void btnLogout_Click_1(object sender, EventArgs e)
         {
-            this.Close();
-            LoginUI login = new LoginUI();
-            login.Show();
+            Application.Exit();
         }
 
 

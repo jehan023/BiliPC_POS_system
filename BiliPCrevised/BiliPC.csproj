@@ -94,11 +94,11 @@
     <Compile Include="AddNewItem.Designer.cs">
       <DependentUpon>AddNewItem.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminUI.cs">
+    <Compile Include="DashboardUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminUI.Designer.cs">
-      <DependentUpon>AdminUI.cs</DependentUpon>
+    <Compile Include="DashboardUI.Designer.cs">
+      <DependentUpon>DashboardUI.cs</DependentUpon>
     </Compile>
     <Compile Include="BsonIDAttribute.cs" />
     <Compile Include="EmployeeUI.cs">
@@ -120,7 +120,6 @@
     <Compile Include="LoginUI.Designer.cs">
       <DependentUpon>LoginUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="MongoCRUD.cs" />
     <Compile Include="Products.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,7 +140,6 @@
     <Compile Include="TransactionForm.Designer.cs">
       <DependentUpon>TransactionForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UsersModel.cs" />
     <Compile Include="ViewEmployees.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,8 +158,8 @@
     <EmbeddedResource Include="AddNewItem.resx">
       <DependentUpon>AddNewItem.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminUI.resx">
-      <DependentUpon>AdminUI.cs</DependentUpon>
+    <EmbeddedResource Include="DashboardUI.resx">
+      <DependentUpon>DashboardUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeUI.resx">
       <DependentUpon>EmployeeUI.cs</DependentUpon>
