@@ -305,7 +305,7 @@
             this.labelDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelDate.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDate.ForeColor = System.Drawing.Color.White;
-            this.labelDate.Location = new System.Drawing.Point(0, 616);
+            this.labelDate.Location = new System.Drawing.Point(6, 616);
             this.labelDate.Margin = new System.Windows.Forms.Padding(0);
             this.labelDate.Name = "labelDate";
             this.labelDate.Size = new System.Drawing.Size(34, 14);
@@ -363,6 +363,7 @@
             this.panelContainerForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContainerForm.Location = new System.Drawing.Point(168, 24);
             this.panelContainerForm.Margin = new System.Windows.Forms.Padding(2);
+            this.panelContainerForm.MinimumSize = new System.Drawing.Size(945, 639);
             this.panelContainerForm.Name = "panelContainerForm";
             this.panelContainerForm.Size = new System.Drawing.Size(945, 639);
             this.panelContainerForm.TabIndex = 12;
@@ -393,7 +394,7 @@
             this.Controls.Add(this.panelTop);
             this.Controls.Add(this.panelSideMenu);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.MinimumSize = new System.Drawing.Size(1129, 675);
+            this.MinimumSize = new System.Drawing.Size(1129, 726);
             this.Name = "EmployeeUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BiliPC Store";
